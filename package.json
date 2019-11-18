@@ -1,0 +1,25 @@
+{
+    "name": "fab-electron",
+    "version": "1.0.0",
+    "description": "Electron application which connects to Attiny45 microcontroller via serial interface.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "install": "electron-rebuild"
+    },
+    "keywords": [
+        "Electron",
+        "FabAcademy",
+        "serial"
+    ],
+    "author": "Anton Pchelkin",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "^5.0.5",
+        "electron-rebuild": "^1.8.5"
+    },
+    "dependencies": {
+        "serialport": "^7.1.5",
+        "tableify": "^1.1.0"
+    }
+}
